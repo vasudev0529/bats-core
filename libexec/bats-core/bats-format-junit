@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -euo pipefail
+set -eo pipefail
 
 # shellcheck source=lib/bats-core/formatter.bash
 source "$BATS_ROOT/lib/bats-core/formatter.bash"
